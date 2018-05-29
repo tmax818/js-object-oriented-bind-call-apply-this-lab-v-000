@@ -13,5 +13,5 @@ function setThisWithApply(fn, thisValue, arg) {
 }
 
 function returnNewFunctionOf(functionToBeCopied, thisValue) {
-  
+  let fncopy = Object.assign({}, functionToBeCopied);
 }
